@@ -6,8 +6,13 @@ function App() {
   return (
     <div className="App">
       <header className="App-header">
-        <img src={Screen} alt="screen" height={400} className={App} />
-        <img src={ScreenSpanish} alt="screen" height={400} className={App} />
+        <div>
+          <h3>English | Spanish</h3>
+        </div>
+        <div className="Space">
+          <img src={Screen} alt="screen" height={1100} className={App} />
+          <img src={ScreenSpanish} alt="screen" height={1100} className={App} />
+        </div>
       </header>
     </div>
   );

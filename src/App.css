@@ -1,5 +1,5 @@
 .App {
-  text-align: center;
+  display: flex;
   flex-direction: column;
 }
 
@@ -36,4 +36,9 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+.Space {
+  display: flex;
+  flex-direction: row;
 }
