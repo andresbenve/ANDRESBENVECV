@@ -5,15 +5,15 @@ import "./App.css";
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
+      <header className="App-header" height={100}>
         <div>
           <h3>English | Spanish</h3>
         </div>
-        <div className="Space">
-          <img src={Screen} alt="screen" height={1100} className={App} />
-          <img src={ScreenSpanish} alt="screen" height={1100} className={App} />
-        </div>
       </header>
+      <div className="Space">
+        <img src={Screen} alt="screen" height={700} />
+        <img src={ScreenSpanish} alt="screen" height={700} />
+      </div>
     </div>
   );
 }
